@@ -1,0 +1,5 @@
+* what is this
+
+** this is a repo for my Emacs configuration
+
+        this includes both original elisp files as well as my vanilla Emacs config
