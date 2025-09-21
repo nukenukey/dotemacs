@@ -130,7 +130,6 @@
 	(setq-default indent-tab-modes nil)
 	(setq-default tab-always-indent nil)
 
-    (setq auto-save-default nil)
     (setq backup-directory-alist "~/.emacs.d/backups")
 
     (setq backup-enable-predicate
@@ -186,7 +185,7 @@
 			 (local-set-key "C-j" 'next-line)
 			 (local-set-key "C-k" 'previous-line)))
 (setq org-agenda-files
-	  '("~/org/agenda")) ;; windows
+	  '("~/org/agenda"))
 (require 'org-habit)
 (add-to-list 'org-modules 'org-habit)
 	
