@@ -148,16 +148,6 @@
                                      (message (format "num of tabs: %s" (length (tab-bar-tabs))))))
   (keymap-global-set "C-S-t" 'tab-bar-undo-close-tab))
 
-(use-package recentf
-  :defer t
-  :config
-  (keymap-global-set "C-x j M-r" '(lambda()
-                                    (interactive)
-                                    (split-window-vertically)
-                                    (other-window)
-                                    (recentf-open))))
-  ;; (keymap-global-set "")
-
 (use-package use-package
   :init
   (setq use-package-always-defer t))
