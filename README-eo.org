@@ -1,0 +1,3 @@
+* Ĉi tio estas depo por mia Emacsa agorda
+
+        Ĉi tio inkluzivas ambaŭ originalaj elispaj dosieroj kaj mia vanila Emacsa agordo

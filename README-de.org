@@ -1,0 +1,3 @@
+* das ist eine repo fur meinen Emacs konfiguration
+
+        das beinhaltet sowohl originale elisp-dateien als auch meine vanilla Emacs-Konfiguration
